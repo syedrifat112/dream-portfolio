@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header start */
+
+.banner {
+    background-image: url(../dream-portfolio/images/banner/banner2.png);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.header-description {
+    text-align: right;
+    padding: 110px 230px 150px 700px;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #151414;
+    margin-bottom: 14px;
+
+}
+
+.header-peragaraph {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 12px;
+
+}
+/* header button */
+
+.header-button {            
+    background: #eb2f06;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    padding: 18px 26px;
+}
+
+/* header end */
+
+/* about me */
+.about-details {
+    text-align: center;
+    margin: 60px 180px 0;
+}
+.about-details h1 {
+    font-weight: 700;
+    font-size: 30px;
+}
+.about-details p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 22px;
+
+}
+
+
+/* my failure expreience */
+
+.expreience {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 0px 180px;
+}
+
+.my-img {
+    width: 400px;
+    background-image: url(../dream-portfolio/images/blob-haikei\ \(4\).png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    border-radius: 20px;
+
+}
+
+.failure-expreience {
+    margin: 80px 60px 0;
+
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 34px;
+    color: #151414;
+    margin-bottom: 10px;
+}
+
+.failure-expreience p,
+ul {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    
+
+}
+/* list-items */
+
+.ul-list {
+    list-style-image: url('../dream-portfolio/images/8666656_check_circle_icon.png');
+    list-style-position: inside;
+    margin-top: 8px;
+
+}
+
+/* my failure expreience end */
+
+/* my plans */
+
+.my-plan-title {
+    text-align: center;
+    color: #151414;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 25px 0;
+
+
+}
+
+.my-plan {
+    display: flex;
+    column-gap: 60px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+
+.my-plan-heading {
+    font-weight: 700;
+    font-size: 25px;
+    color: #151414;
+    margin: 12px 0;
+}
+
+.my-plan-description {
+    font-weight: 500;
+    font-size: 20px;
+    color: #737272;
+}
+
+/* my plans end */
+
+/* linear-gradient */
+
+.linear-gradient {
+    margin: 100px 200px;
+
+
+
+}
+
+.linear-gradient-photo {
+    background: linear-gradient(90deg, #f74803 0%, rgba(241, 91, 34, 0) 100%), url(../dream-portfolio/images/watch.png);
+    border-radius: 8px;
+    background-blend-mode: lighten;
+    height: 190px;
+    padding: 50px 600px 40px 50px;
+
+}
+
+.linear-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #000;
+}
+/* call now btn */
+.linear-btn {
+    background: #fff;
+    color: #eb2f06;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 12px 20px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* linear-gradient end */
+
+/* form */
+
+.contact {
+    display: flex;
+    background: #151414;
+    height: 500px;
+}
+
+.form-description {
+    padding: 80px 100px 140px 200px;
+}
+
+.form-title {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 15px;
+
+}
+
+.form-p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.contact .form-description a {
+    padding-right: 10px;
+}
+
+.form {
+    padding: 80px 200px 120px 100px;
+}
+
+.input-email {
+    background: #151414;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 30px;
+    padding: 15px 100px 15px 15px;
+    border: solid 2px #737272;
+    border-radius: 5px;
+}
+/* submit-button */
+.submit-btn {
+    background: #fff;
+    color: #F15B22;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+}
+/* form end */
